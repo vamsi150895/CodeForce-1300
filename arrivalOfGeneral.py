@@ -35,7 +35,7 @@ print('The tallest height of', maxi, 'is at', maxi_index, 'position and the smal
 
 if( maxi_index > mini_index):
     
-    print('Number of seconds required are: ', (maxi_index-1)+(sol-mini_index)-1)
+    print('Number of seconds required are: ', (maxi_index-1)+(sol-mini_index) -1 -1)
 
 else:
     print('Number of seconds required are: ', (maxi_index-1)+(sol-mini_index))
