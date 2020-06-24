@@ -10,15 +10,12 @@ elements = list(map(int,input().split()))
 numberOfQue = int(input())
 searchQue = list(map(int,input().split()))
 
-#Vasya's approach
 
-
-
-
-#Petya's approach
-
-
-
+for each_number in searchQue:
+    if each_number in elements:
+        indexOfNum = elements.index(each_number)
+        vasya_approach = vasya_approach + indexOfNum + 1      # Because index starts from 0
+        petya_approach = petya_approach + (numberOfele - indexOfNum)
 
 
 
